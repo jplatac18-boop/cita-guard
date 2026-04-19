@@ -213,7 +213,7 @@ export default function App() {
         <header className="mb-8 overflow-hidden rounded-3xl bg-stone-700 text-stone-50 shadow-2xl">
           <div className="grid gap-8 px-6 py-8 md:grid-cols-[1.4fr_0.9fr] md:px-10 md:py-10">
             <div>
-              <div className="mb-4 inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-stone-200">
+              <div className="mb-4 inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-2xl font-medium uppercase tracking-[0.2em] text-stone-200">
                 React + TypeScript + Tailwind
               </div>
               <h1 className="max-w-3xl text-3xl font-semibold tracking-tight sm:text-5xl">

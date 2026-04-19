@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-stone-100 text-stone-900 antialiased;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+textarea {
+  resize: vertical;
+}

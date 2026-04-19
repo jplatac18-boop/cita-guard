@@ -430,7 +430,6 @@ export default function App() {
                 rows={14}
                 className="w-full rounded-2xl border border-stone-300 bg-white px-4 py-3 outline-none transition focus:border-stone-500"
               />
-
               <div className="mt-4 rounded-2xl bg-stone-100 p-4">
                 <div className="flex items-center justify-between gap-3">
                   <div>
@@ -458,7 +457,8 @@ export default function App() {
                   </div>
                 </div>
               </div>
-
+              // Aquí se podrían mostrar los hallazgos específicos encontrados
+              en el texto, con etiquetas de severidad y explicaciones.
               <div className="mt-5 space-y-3">
                 {findings.length === 0 ? (
                   <div className="rounded-2xl border border-dashed border-stone-300 bg-white p-4 text-sm text-stone-500">
